@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS restaurant(
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    longitude DOUBLE,
+    latitude DOUBLE
+);
